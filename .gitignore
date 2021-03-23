@@ -1,0 +1,5 @@
+.idea/
+*.iml
+
+cov_profile/
+*.lcov
