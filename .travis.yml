@@ -1,0 +1,20 @@
+os:
+    - linux
+
+services:
+    - docker
+
+before_install:
+    - pwd
+    - curl -fsSL https://deno.land/x/install/install.sh | sh
+    - ls -l $HOME/.deno
+    - export DENO_INSTALL="$HOME/.deno"
+    - export PATH="$DENO_INSTALL/bin:$PATH"
+    - deno run https://deno.land/std/examples/welcome.ts
+
+script:
+    - deno test --coverage=coverage --unstable
+    - deno coverage --unstable coverage --lcov > coverage.lcov
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
