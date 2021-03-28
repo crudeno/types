@@ -1,6 +1,6 @@
 # types
-[![travis](https://travis-ci.com/crudeno/types.svg?branch=master)](https://travis-ci.com/crudeno/types)
-[![codecov](https://img.shields.io/codecov/c/gh/crudeno/types?style=flat-square)](https://codecov.io/gh/crudeno/types)
+[![travis](https://travis-ci.com/crudeno/types.svg?branch=main)](https://travis-ci.com/crudeno/types)
+[![codecov](https://codecov.io/gh/crudeno/types/branch/main/graph/badge.svg?token=vHUAgFk5bD)](https://codecov.io/gh/crudeno/types)
 
 > CRUDeno data-types definitions
 
