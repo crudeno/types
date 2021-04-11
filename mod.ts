@@ -1,3 +1,4 @@
+export { ArrayType } from "./array.ts";
 export { BooleanType } from "./boolean.ts";
 export { DateType } from "./date.ts";
 export { DateTimeType } from "./datetime.ts";
