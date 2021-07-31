@@ -1,5 +1,5 @@
 import { Property } from './property.ts'
 
 export interface Schema {
-  [index: string]: Property
+  readonly [index: string]: Property
 }
