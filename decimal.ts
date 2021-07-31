@@ -1,5 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class DecimalType extends Type {
-  _default: number = 0.0;
+export interface Decimal extends Property {
+  readonly type: 'decimal'
 }

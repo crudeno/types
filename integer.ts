@@ -1,5 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class IntegerType extends Type {
-  _default: number = 0;
+export interface Integer extends Property {
+  readonly type: 'integer'
 }

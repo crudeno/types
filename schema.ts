@@ -1,5 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
 export interface Schema {
-  [index: number]: Type;
+  [index: string]: Property
 }

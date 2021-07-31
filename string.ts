@@ -1,4 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class StringType extends Type {
+export interface String extends Property {
+  readonly type: 'string'
 }

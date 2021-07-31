@@ -1,4 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class DateTimeType extends Type {
+export interface DateTime extends Property {
+  readonly type: 'datetime'
 }

@@ -1,17 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class ArrayType extends Type {
-  _default = [];
-  type;
-
-  constructor(
-    name: string,
-    type: typeof Type,
-    required: boolean = false,
-    unique: boolean = false,
-    _private: boolean = false,
-  ) {
-    super(name, required, unique, _private);
-    this.type = type;
-  }
+export interface Array extends Property {
+  readonly type: 'array'
 }

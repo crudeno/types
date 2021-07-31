@@ -1,11 +1,10 @@
-export { ArrayType } from "./array.ts";
-export { BooleanType } from "./boolean.ts";
-export { DateType } from "./date.ts";
-export { DateTimeType } from "./datetime.ts";
-export { DecimalType } from "./decimal.ts";
-export { IntegerType } from "./integer.ts";
-export { ObjectType } from "./object.ts";
-export { StringType } from "./string.ts";
-export { Type } from "./type.ts";
-
-export type { Schema } from "./schema.ts";
+export type { Array } from './array.ts'
+export type { Boolean } from './boolean.ts'
+export type { Date } from './date.ts'
+export type { DateTime } from './datetime.ts'
+export type { Decimal } from './decimal.ts'
+export type { Integer } from './integer.ts'
+export type { Object } from './object.ts'
+export type { Property } from './property.ts'
+export type { Schema } from './schema.ts'
+export type { String } from './string.ts'

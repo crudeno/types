@@ -1,17 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class ObjectType extends Type {
-  _default: {} = {};
-  fields: Type[];
-
-  constructor(
-    name: string,
-    fields: Type[],
-    required: boolean = false,
-    unique: boolean = false,
-    _private: boolean = false,
-  ) {
-    super(name, required, unique, _private);
-    this.fields = fields;
-  }
+export interface Object extends Property {
+  readonly type: 'object'
 }

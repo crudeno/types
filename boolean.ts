@@ -1,5 +1,5 @@
-import { Type } from "./type.ts";
+import { Property } from './property.ts'
 
-export class BooleanType extends Type {
-  _default: boolean = false;
+export interface Boolean extends Property {
+  readonly type: 'boolean'
 }
