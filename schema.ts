@@ -1,5 +1,3 @@
 import { Property } from './property.ts'
 
-export interface Schema {
-  readonly [index: string]: Property
-}
+export type Schema = Readonly<Record<string, Property>>
