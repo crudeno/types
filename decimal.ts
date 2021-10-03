@@ -1,5 +1,5 @@
 import { Property } from './property.ts'
 
-export interface Decimal extends Property {
+export type Decimal = Property & {
   readonly type: 'decimal'
 }

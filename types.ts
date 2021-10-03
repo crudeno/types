@@ -1,10 +1,9 @@
 export const Types = [
-  'array',
-  'boolean',
-  'date',
+  'list',
+  'bool',
   'datetime',
   'decimal',
   'integer',
-  'object',
-  'string',
+  'dict',
+  'text',
 ] as const

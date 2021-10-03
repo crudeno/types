@@ -1,5 +1,5 @@
 import { Property } from './property.ts'
 
-export interface Integer extends Property {
+export type Integer = Property & {
   readonly type: 'integer'
 }

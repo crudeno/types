@@ -1,5 +1,6 @@
 import { Property } from './property.ts'
 
-export interface DateTime extends Property {
+export type DateTime = Property & {
+  readonly format: string
   readonly type: 'datetime'
 }
