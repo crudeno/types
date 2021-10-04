@@ -10,3 +10,4 @@ export type Schema =
   Readonly<Record<string, Bool | DateTime | Decimal | Dict | Integer | List | Text>> |
   Readonly<Record<'$name', string | undefined>> |
   Readonly<Record<'$version', number | undefined>>
+
