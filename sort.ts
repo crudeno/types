@@ -1,3 +1,3 @@
-import { Field } from './field.ts'
+import { Field } from "./field.ts";
 
-export type Sort = Field
+export type Sort = Field;

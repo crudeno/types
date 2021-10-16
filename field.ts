@@ -1,1 +1,1 @@
-export type Field = string
+export type Field = string;

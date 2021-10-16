@@ -1,5 +1,5 @@
-import { Property } from './property.ts'
+import { Property } from "./property.ts";
 
 export type Decimal = Property & {
-  readonly type: 'decimal'
-}
+  readonly type: "decimal";
+};

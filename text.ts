@@ -1,5 +1,5 @@
-import { Property } from './property.ts'
+import { Property } from "./property.ts";
 
 export type Text = Property & {
-  readonly type: 'text'
-}
+  readonly type: "text";
+};

@@ -1,6 +1,6 @@
-import { Property } from './property.ts'
+import { Property } from "./property.ts";
 
 export type DateTime = Property & {
-  readonly format: string
-  readonly type: 'datetime'
-}
+  readonly format: string;
+  readonly type: "datetime";
+};

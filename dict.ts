@@ -1,7 +1,7 @@
-import { Property } from './property.ts'
-import { Schema } from './schema.ts'
+import { Property } from "./property.ts";
+import { Schema } from "./schema.ts";
 
 export type Dict = Property & {
-  readonly type: 'dict'
-  readonly properties: Schema
-}
+  readonly type: "dict";
+  readonly properties: Schema;
+};
